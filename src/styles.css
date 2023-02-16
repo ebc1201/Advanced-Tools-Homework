@@ -118,3 +118,32 @@ p {
     justify-content: center;
   }
 }
+
+@media (max-width: 400px) {
+  body {
+    margin-top: 100px;
+  }
+
+  h1,
+  h2 {
+    font-size: 24px;
+  }
+
+  .home-img {
+    display: none;
+  }
+
+  p,
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .primary-btn {
+    display: flex;
+    justify-content: center;
+  }
+}
