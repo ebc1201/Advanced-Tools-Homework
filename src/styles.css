@@ -98,3 +98,23 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .home-img {
+    display: none;
+  }
+
+  p,
+  h2 {
+    text-align: center;
+  }
+
+  .primary-btn {
+    display: flex;
+    justify-content: center;
+  }
+}
